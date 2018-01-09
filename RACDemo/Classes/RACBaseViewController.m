@@ -12,8 +12,9 @@
 
 @end
 
-@implementation RACBaseViewController
 
+@implementation RACBaseViewController
+    
 - (void)viewDidLoad {
     [super viewDidLoad];
     

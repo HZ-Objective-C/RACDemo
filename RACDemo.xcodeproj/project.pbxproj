@@ -20,6 +20,8 @@
 		0B6E905220049E5700F21E55 /* RACCombineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B6E905020049E5700F21E55 /* RACCombineViewController.xib */; };
 		0B6E90552004A91200F21E55 /* RACDefineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E90542004A91200F21E55 /* RACDefineViewController.m */; };
 		5AA45BC34F863D3BA6DFDE4E /* libPods-RACDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F2388873C18D5375603005 /* libPods-RACDemo.a */; };
+		ADC53E622004F78700D07686 /* RACExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC53E602004F78700D07686 /* RACExampleViewController.m */; };
+		ADC53E632004F78700D07686 /* RACExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADC53E612004F78700D07686 /* RACExampleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,9 @@
 		0B6E90542004A91200F21E55 /* RACDefineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACDefineViewController.m; sourceTree = "<group>"; };
 		710254AA37D52679D34F999E /* Pods-RACDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A7CC5F155D4B7C1496A7F1F3 /* Pods-RACDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		ADC53E5F2004F78700D07686 /* RACExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACExampleViewController.h; sourceTree = "<group>"; };
+		ADC53E602004F78700D07686 /* RACExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACExampleViewController.m; sourceTree = "<group>"; };
+		ADC53E612004F78700D07686 /* RACExampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RACExampleViewController.xib; sourceTree = "<group>"; };
 		C3F2388873C18D5375603005 /* libPods-RACDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RACDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -110,6 +115,9 @@
 				0B6E903D2004976200F21E55 /* RACNetworkViewController.h */,
 				0B6E903E2004976200F21E55 /* RACNetworkViewController.m */,
 				0B6E903F2004976200F21E55 /* RACNetworkViewController.xib */,
+				ADC53E5F2004F78700D07686 /* RACExampleViewController.h */,
+				ADC53E602004F78700D07686 /* RACExampleViewController.m */,
+				ADC53E612004F78700D07686 /* RACExampleViewController.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -192,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC53E632004F78700D07686 /* RACExampleViewController.xib in Resources */,
 				0B6E90412004976200F21E55 /* RACNetworkViewController.xib in Resources */,
 				0B6E902920048D3500F21E55 /* LaunchScreen.storyboard in Resources */,
 				0B6E902620048D3500F21E55 /* Assets.xcassets in Resources */,
@@ -264,6 +273,7 @@
 				0B6E903420048E9900F21E55 /* RACTableViewController.m in Sources */,
 				0B6E902C20048D3500F21E55 /* main.m in Sources */,
 				0B6E90402004976200F21E55 /* RACNetworkViewController.m in Sources */,
+				ADC53E622004F78700D07686 /* RACExampleViewController.m in Sources */,
 				0B6E901E20048D3500F21E55 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

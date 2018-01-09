@@ -9,6 +9,7 @@
 #import "RACTableViewController.h"
 #import "RACCombineViewController.h"
 #import "RACDefineViewController.h"
+#import "RACExampleViewController.h"
 
 @interface RACTableViewController ()
 
@@ -24,7 +25,9 @@
 - (NSDictionary <NSString *, Class>*)dataSource {
     if (!_dataSource) {
         _dataSource = @{@"commbine": [RACCombineViewController class],
-                        @"RAC 中的宏解析": [RACDefineViewController class]};
+                        @"RAC 中的宏解析": [RACDefineViewController class],
+                        @"一个例子": [RACExampleViewController class]
+                        };
     }
     return _dataSource;
 }
