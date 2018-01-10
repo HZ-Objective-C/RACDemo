@@ -10,6 +10,7 @@
 #import "RACCombineViewController.h"
 #import "RACDefineViewController.h"
 #import "RACExampleViewController.h"
+#import "RACLoginViewController.h"
 
 @interface RACTableViewController ()
 
@@ -26,7 +27,8 @@
     if (!_dataSource) {
         _dataSource = @{@"commbine": [RACCombineViewController class],
                         @"RAC 中的宏解析": [RACDefineViewController class],
-                        @"一个例子": [RACExampleViewController class]
+                        @"一个例子": [RACExampleViewController class],
+                        @"登录的例子": [RACLoginViewController class]
                         };
     }
     return _dataSource;
